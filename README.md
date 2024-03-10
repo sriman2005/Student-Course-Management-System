@@ -33,7 +33,7 @@ Create a file with the name "sample" and save all these files in it and install 
 
 ## Clone the Repository
 
-git clone https://github.com/ShadowSLayerrYT/Student-Course-Management-System.git
+git clone https://github.com/sriman2005/Student-Course-Management-System.git
 cd sample
 
 
@@ -42,21 +42,27 @@ cd sample
 Navigate to the project root directory and install the necessary dependencies for both the client and server.
 
 # Install client dependencies
+
+```bash
 cd client
 npm install
+```
 
 # Install server dependencies
+
+```bash
 cd ../server
 npm install
-
+```
 
 ## Start the Server
 
 Ensure you are in the server directory before starting the server.
 
+```bash
 cd server
 nodemon app.js
-
+```
 
 This will launch the Node.js server using nodemon, which automatically restarts on file changes.
 
